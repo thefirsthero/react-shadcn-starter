@@ -13,7 +13,7 @@ npm run dev
 
 ## Getting Done
 
-- [x] Single page app with navigation and responsif layout
+- [x] Single page app with navigation and responsive layout
 - [x] Customable configuration `/config`
 - [x] Simple starting page/feature `/pages`
 - [x] Github action deploy github pages
@@ -23,7 +23,7 @@ npm run dev
 - change `basenameProd` in `/vite.config.ts`
 - create deploy key `GITHUB_TOKEN` in github `/settings/keys`
 - commit and push changes code
-- setup gihub pages to branch `gh-pages`
+- setup github pages to branch `gh-pages`
 - run action `Build & Deploy`
 
 ### Auto Deploy
@@ -51,21 +51,21 @@ on:
 
 ```md
 react-shadcn-starter/
-├── public/            # Public assets
-├── src/               # Application source code
-│   ├── components/    # React components
-│   ├── context/       # contexts components
-│   ├── config/        # Config data
-│   ├── hook/          # Custom hooks
-│   ├── lib/           # Utility functions
-│   ├── pages/         # pages/features components
-│   ├── App.tsx        # Application entry point
-│   ├── index.css      # Main css and tailwind configuration
-│   ├── main.tsx       # Main rendering file
-│   └── Router.tsx     # Routes component
-├── index.html         # HTML entry point
-├── tsconfig.json      # TypeScript configuration
-└── vite.config.ts     # Vite configuration
+├── public/ # Public assets
+├── src/ # Application source code
+│ ├── components/ # React components
+│ ├── context/ # contexts components
+│ ├── config/ # Config data
+│ ├── hook/ # Custom hooks
+│ ├── lib/ # Utility functions
+│ ├── pages/ # pages/features components
+│ ├── App.tsx # Application entry point
+│ ├── index.css # Main css and tailwind configuration
+│ ├── main.tsx # Main rendering file
+│ └── Router.tsx # Routes component
+├── index.html # HTML entry point
+├── tsconfig.json # TypeScript configuration
+└── vite.config.ts # Vite configuration
 ```
 
 ## License
